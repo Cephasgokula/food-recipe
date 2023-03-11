@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            max-width: 500px;
+            margin: 200px auto;
+            padding: 20px;
+            border-radius: 5px;
+            height: 425px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=password] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+
+        button[type=submit] {
+            
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button[type=submit]:hover {
+            background-color: #171799;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Sign In</h2>
+        <form id="signup-form" action="">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+            
+            <button type="submit" id="submit-btn"><a href="index.html"> Sign In</a></button>
+
+
+           
+        </form>
+    </div>
+
+    
+</body>
+
+</html>
